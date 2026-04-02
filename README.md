@@ -138,3 +138,24 @@ marketing-analytics-sql-project
 ├── dbeaver_queries
 ├── bigquery_queries
 └── screenshots
+
+Author
+
+Melike Emine Özyavuz
+
+Aspiring Data Analyst with experience in:
+
+SQL
+Excel / Google Sheets
+Tableau / Power BI
+BigQuery
+QA & Test Automation foundations
+Notes
+
+This repository was created as a portfolio-oriented SQL project to demonstrate practical skills in:
+
+marketing analytics
+campaign analysis
+conversion funnel logic
+session-based behavioral analysis
+PostgreSQL + BigQuery workflows
