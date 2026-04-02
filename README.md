@@ -131,14 +131,8 @@ Analyzed whether user engagement is related to purchasing behavior.
 
 ---
 
-## Repository Structure
+<img width="1528" height="790" alt="image" src="https://github.com/user-attachments/assets/c733fb77-665a-4be9-b620-25dd4990b85b" />
 
-```text
-marketing-analytics-sql-project
-├── README.md
-├── dbeaver_queries/
-├── bigquery_queries/
-└── screenshots/
 
 Author
 
@@ -151,6 +145,16 @@ Aspiring Data Analyst with experience in:
 - Tableeau / Power BI
 - BigQuery
 -QA & Test Automation foundations
+
+Notes
+
+This repository was created as a portfolio-oriented SQL project to demonstrate practical skills in:
+
+marketing analytics
+campaign analysis
+conversion funnel logic
+session-based behavioral analysis
+PostgreSQL + BigQuery workflows
 
 
 
