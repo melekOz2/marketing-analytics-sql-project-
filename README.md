@@ -1,17 +1,18 @@
 # Marketing Analytics SQL Project
 
-A marketing analytics project built with **PostgreSQL (DBeaver)** and **BigQuery**, focused on **campaign performance analysis**, **GA4 e-commerce funnel tracking**, and **conversion insights**.
+A portfolio-focused SQL project built with **PostgreSQL (DBeaver)** and **BigQuery**, centered on **campaign performance analysis**, **GA4 e-commerce funnel tracking**, and **conversion insights**.
 
 ---
 
 ## Project Overview
 
-This project combines two different analytics environments:
+This project combines two analytics environments:
 
 - **PostgreSQL (DBeaver)** for online advertising campaign analysis
-- **BigQuery + GA4 sample e-commerce dataset** for user behavior and conversion funnel analysis
+- **BigQuery + GA4 public e-commerce dataset** for session-based funnel and conversion analysis
 
-The goal of this project was to practice writing SQL queries for:
+The project demonstrates practical SQL skills in:
+
 - campaign performance evaluation
 - ROMI and spend analysis
 - weekly and monthly trend detection
@@ -35,22 +36,22 @@ The goal of this project was to practice writing SQL queries for:
 
 ### 1. Campaign Performance Analysis (PostgreSQL / DBeaver)
 
-Analyzed Facebook and Google Ads campaign data using SQL queries.
+Analyzed Facebook and Google Ads campaign data using SQL.
 
-Completed tasks:
-- Daily spend metrics (average, minimum, maximum)
-- Top 5 days by total ROMI
-- Weekly campaign with the highest total value
-- Monthly campaign with the biggest reach growth
-- Longest continuous impressions period by adset
+**Completed tasks:**
+- Daily spend metrics (**average, minimum, maximum**)
+- Top 5 days by total **ROMI**
+- Weekly campaign with the highest total **value**
+- Monthly campaign with the biggest **reach growth**
+- Longest continuous **impressions** period by adset
 
 ---
 
 ### 2. BI Data Preparation (BigQuery / GA4)
 
-Prepared a filtered event-level table from the GA4 public e-commerce dataset.
+Prepared a filtered event-level table from the **GA4 public e-commerce dataset**.
 
-Included:
+**Included:**
 - event timestamp conversion
 - session ID extraction
 - user and device information
@@ -58,7 +59,7 @@ Included:
 - campaign attribution fields
 - selected e-commerce funnel events only
 
-Tracked events:
+**Tracked events:**
 - `session_start`
 - `view_item`
 - `add_to_cart`
@@ -73,16 +74,16 @@ Tracked events:
 
 Built a session-based conversion table grouped by:
 
-- event date
-- source
-- medium
-- campaign
+- `event_date`
+- `source`
+- `medium`
+- `campaign`
 
-Calculated:
+**Calculated:**
 - unique sessions
-- visit to cart conversion
-- visit to checkout conversion
-- visit to purchase conversion
+- visit-to-cart conversion
+- visit-to-checkout conversion
+- visit-to-purchase conversion
 
 ---
 
@@ -90,12 +91,13 @@ Calculated:
 
 Compared landing pages based on purchase behavior.
 
-Calculated:
+**Calculated:**
 - unique user sessions
 - purchase count
 - purchase conversion rate
 
 This analysis used session-level matching with:
+
 - `user_pseudo_id`
 - `session_id`
 
@@ -105,12 +107,12 @@ This analysis used session-level matching with:
 
 Analyzed whether user engagement is related to purchasing behavior.
 
-For each session:
+**For each session:**
 - checked whether the session was engaged
 - calculated total engagement time
 - checked whether a purchase happened
 
-Compared:
+**Compared:**
 - engagement presence vs purchase
 - engagement duration vs purchase
 
@@ -119,8 +121,7 @@ Compared:
 ## Key Skills Demonstrated
 
 - Writing analytical SQL queries
-- Working with CTEs and aggregations
-- Using joins across campaign tables
+- Working with **CTEs**, aggregations, and joins
 - Session-based event modeling
 - Funnel analysis with GA4 event data
 - Conversion rate calculation
@@ -135,9 +136,9 @@ Compared:
 ```text
 marketing-analytics-sql-project
 ├── README.md
-├── dbeaver_queries
-├── bigquery_queries
-└── screenshots
+├── dbeaver_queries/
+├── bigquery_queries/
+└── screenshots/
 
 Author
 
@@ -150,6 +151,7 @@ Excel / Google Sheets
 Tableau / Power BI
 BigQuery
 QA & Test Automation foundations
+
 Notes
 
 This repository was created as a portfolio-oriented SQL project to demonstrate practical skills in:
@@ -159,3 +161,6 @@ campaign analysis
 conversion funnel logic
 session-based behavioral analysis
 PostgreSQL + BigQuery workflows
+
+
+
