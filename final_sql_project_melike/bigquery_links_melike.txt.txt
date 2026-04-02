@@ -1,0 +1,13 @@
+Task 2 – BI Preparation:
+https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1smoonlit-pursuit-491919-i8!2sus-central1!3s31f7875b-b3c8-402a-bd90-663cc2978387!2e1
+
+
+Task 3 – Conversion by Channel:
+https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1smoonlit-pursuit-491919-i8!2sus-central1!3sea27e3b7-1a5d-47d5-8431-d2661b89fe18!2e1
+
+Task 4 – Landing Page Conversion:
+https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1smoonlit-pursuit-491919-i8!2sus-central1!3s40b9693a-d9ac-4087-816e-31a5985aa46e!2e1
+
+
+Task 5 – Engagement & Purchase Correlation:
+https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1smoonlit-pursuit-491919-i8!2sus-central1!3s7134a618-f49f-4c1a-b926-131495764b31!2e1
