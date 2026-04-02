@@ -150,11 +150,11 @@ Notes
 
 This repository was created as a portfolio-oriented SQL project to demonstrate practical skills in:
 
-marketing analytics
-campaign analysis
-conversion funnel logic
-session-based behavioral analysis
-PostgreSQL + BigQuery workflows
+- marketing analytics
+- campaign analysis
+- conversion funnel logic
+- session-based behavioral analysis
+- PostgreSQL + BigQuery workflows
 
 
 
